@@ -69,7 +69,7 @@ class LivewireServiceProvider extends \Illuminate\Support\ServiceProvider
     {
         if (class_exists(AboutCommand::class) && class_exists(InstalledVersions::class)) {
             AboutCommand::add('Livewire', [
-                'Livewire' => InstalledVersions::getPrettyVersion('livewire/livewire'),
+                'Livewire' => InstalledVersions::getPrettyVersion('ye-du-dev/livewire'),
             ]);
         }
 
